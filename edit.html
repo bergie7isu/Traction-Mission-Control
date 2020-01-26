@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+      <title>Edit Todo/Issue wireframe</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="edit.css">
+  </head>
+
+  <body>
+    <main role="main">
+      <header role="banner">
+        <h1>Update a Todo or an Issue</h1>
+        <p>(Form will auto-populated with existing data for specific todo/issue)</p>
+      </header>
+    <form class='signup-form'>
+        <div>
+            <label for="todo">Todo/Issue</label>
+            <input placeholder="What's the action?  What's the issue?" type="text" name='todo' id='todo' />
+        </div>
+        <div>
+            <label for="who">Who?</label>
+            <input type="text" name='who' id='who' placeholder="Whose action or issue is it?" />
+        </div>
+        <div>
+            <label for="date-created">Date Created</label>
+            <input type="date" name='date-created' id='date-created' />
+        </div>
+        <div>
+            <label for="date-due">Date Due</label>
+            <input type="date" name='date-due' id='date-due' />
+        </div>
+        <br>
+        <div>
+            <label for="issue">Related Issue</label>
+            <input type="text" name='issue' id='issue' />
+            <p>(If this is a todo, what issue is it addressing?)</p>
+        </div>
+        <button>Update</button>
+        <button>Cancel</button>
+    </form>
+    </main>
+  </body>
+
+</html>
